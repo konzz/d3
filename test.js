@@ -46,5 +46,5 @@ var xAxis = d3.svg.axis()
 
 svg.append("g")
     .attr("class", "axis")
-    .attr("transform", "translate(10," + 300 + ")")
+    .attr("transform", "translate(10,300)")
     .call(xAxis);
